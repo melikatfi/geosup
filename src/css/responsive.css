@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    .footer-wrap h3 {
+        margin-top: 27px;
+    }
+
+    footer .round-btn {
+        margin: 15px 4px;
+    }
+}
+
+@media (max-width: 320px) {
+    .copyright {
+        font-size: 13px;
+    }
+}
