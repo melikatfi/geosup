@@ -1,8 +1,10 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
+body{
+    font-family: Samim , Sans-Serif;
+}
 
 i {
     height: 1rem;
-
 }
 
 a {
@@ -17,6 +19,29 @@ h1:hover {
     color: #03b0de !important;
 }
 
+.float-left{
+    float: left !important;
+}
+
+.float-right{
+    float: right !important;
+}
+
+.d-flex{
+    display: flex !important;
+}
+
+.justify-content-between{
+    justify-content: space-between !important;
+}
+
+.mt-35{
+    margin-top: 35px;
+}
+
+.text-light{
+    color: #FFFFFF !important;
+}
 /*navbar*/
 .btn_gray {
     display: inline;
@@ -37,15 +62,18 @@ h1:hover {
     display: inline;
     width: 60px;
     height: 37px;
-
     text-align: center;
     color: #FFFFFF;
     float: left;
     font-size: 11px;
     line-height: 34px;
-
     cursor: pointer;
     margin-bottom: 3px;
+}
+
+.menu{
+    background-color: #002855;
+    width: 100%;
 }
 
 .navbar-nav li a {
@@ -64,8 +92,32 @@ h1:hover {
     border-top:3px solid #03b0de !important;
 }
 
+.popup-contact1{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.popup-contact1 i{
+    margin-bottom: 5px;
+}
+
 /*header*/
-.header
+.header #Login{
+    font-family: 'Open Sans', sans-serif
+}
+
+.header #Register{
+    font-family: 'Open Sans', sans-serif
+}
+
+.btn-lang{
+    margin-top:17px;
+    margin-left:0;
+    height: 15px;
+    background: #14213d;
+    border: 0;
+    font-size:14px;
+}
+
 /*modal*/
 .modal-login {
     color: #636363;
@@ -177,15 +229,42 @@ h1:hover {
 }
 
 .carousel-inner img {
-
     width: 100%;
-
 }
 
-.carousel-caption {
-    left: 33px !important;
-    padding-bottom: 18px !important;
+#Slider1{
+    color: #fff;
+    font-size:28px;
+    text-shadow: 2px 2px 20px #000;
+    font-family:'Open Sans',sans-serif;
 }
+
+#Slider2 {
+    font-size: 35px;
+    color: white;
+    text-shadow: 2px 2px 20px #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.carousel-caption{
+    text-align: right !important;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    right: 3% !important;
+    left: 100% !important;
+    top: 25% !important;
+    bottom: 0 !important;
+}
+
+/*.carousel-caption {*/
+/*    left: 33px !important;*/
+/*    padding-bottom: 18px !important;*/
+/*    text-align: right;*/
+/*    margin-bottom: 156px;*/
+/*    font-family:'Open Sans',sans-serif;*/
+/*}*/
 
 @keyframes fadeInUp {
     from {
@@ -226,24 +305,63 @@ h1:hover {
     -webkit-animation-name: fadeInUp;
 }
 
+.introduction #Introduction{
+    font-family: inherit;
+    font-size: 35px;
+    line-height: 35px;
+    color: #14213d;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    font-weight: 700;
+}
+
+#Description1{
+    line-height: 25px;
+    margin-top: 20px;
+    font-size:16px;
+}
+
+.research h2{
+    font-size: 35px;
+    padding-top:40px;
+    padding-bottom:30px;
+    line-height: 35px;
+    color: #14213d;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+}
+
 .services {
+    height: 250px;
     padding: 20px;
     transition: ease-in-out .5s;
     border-radius: 6px;
     margin-top: 20px;
-    font-family: 'Open Sans', sans-serif;
+    background: #002855;
+    color: #fff !important;
 }
 
 .services i {
     font-size: 3em;
     margin: 30px 0 47px;
-    color: #9463ea;
+    color: #03b0de !important;
 }
 
-.services {
-    background: #002855;
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
+.services p{
+    line-height: 25px;
+    margin-top: 20px;
+    font-size:13px;
+}
+
+.services a{
+    color: #fff !important;
+    transition: ease-in-out .5s;
+}
+
+.services a:hover{
+    color: #e9e9e9 !important;
 }
 
 .services i {
@@ -353,9 +471,9 @@ h1:hover {
 }
 
 .service-27 {
-    font-family: "Montserrat", sans-serif;
     color: #8d97ad;
     font-weight: 300;
+    background:#eeeeff;
 }
 
 .service-27 h1, .service-27 h2, .service-27 h3, .service-27 h4, .service-27 h5, .service-27 h6 {
@@ -384,7 +502,8 @@ h1:hover {
 }
 
 .service-27 .linking {
-    color: #3e4555;
+    color:#2ac5ed;
+    font-weight:bold;
 }
 
 .service-27 .linking:hover {
@@ -411,6 +530,51 @@ h1:hover {
     margin-top: 52px;
 }
 
+.service-27 h2{
+    color:#002855;
+    font-size:35px !important;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.service-27 h4{
+    font-weight:bold;
+    font-size:21px;
+}
+
+.service27-icon{
+    width:100px;
+    height:100px;
+}
+
+.projects h2 {
+    font-size: 35px;
+    padding-top: -10px;
+    padding-bottom: 30px;
+    line-height: 35px;
+    color: #14213d;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+}
+
+.projects .card{
+    background-color: #eeeeff;
+}
+
+.projects .card-img{
+    height: 180px !important;
+}
+
+.projects .card-img img{
+    object-fit: cover;
+    height: 180px !important;
+}
+
+.projects .card-body p{
+    font-size:14px;
+}
+
 .divider {
     border: 1px solid #ccc;
 }
@@ -424,7 +588,6 @@ h1:hover {
     text-align: center;
     font-size: 18px;
     background: #fff;
-    /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -446,6 +609,32 @@ h1:hover {
     color: white;
 }
 
+.industries {
+    width: 100%;
+    background-color: #eeeeff;
+    margin-left: 0;
+    margin-top: 45px;
+}
+
+.industries h2 {
+    font-size: 35px;
+    padding-top: -14px;
+    padding-bottom: 30px;
+    line-height: 35px;
+    color: #14213d;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+}
+
+.industries h2 ~ p{
+    font-size: 18px;
+}
+
+.service-block .text{
+    font-size: 14px !important;
+}
+
 #services .services-top {
     padding: 29px 0 50px;
 }
@@ -460,12 +649,11 @@ h1:hover {
 
 .services-list .service-block .ico {
     font-size: 38px;
-    float: left;
+    float: right;
 }
 
 .services-list .service-block .text-block {
-    font-family: 'Open Sans',sans-serif;
-    margin-left: 58px;
+    margin-right: 58px;
 }
 
 .services-list .service-block .text-block .name {
@@ -485,7 +673,43 @@ h1:hover {
 
 }
 
+.news h2 {
+    font-size: 35px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 35px;
+    color: #14213d;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+}
 
+.news .card{
+    background-color: #eeeeff;
+}
+
+.news .card-img{
+    border:1px solid #ccc;
+}
+
+.news .card-body h4{
+    font-weight: bold
+}
+
+.logos-row {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.logos img {
+    margin-bottom: 5px;
+    border-radius: 7px;
+    margin-top: 10px;
+    float: right;
+    align-items: center;
+}
 /*social icons*/
 .round-btn {
     display: inline;

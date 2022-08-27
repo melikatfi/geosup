@@ -1458,26 +1458,24 @@ header .navbar-meta.meta-property .meta-content .meta-property {
 	position: absolute;
 	margin-right: -30px;
 }
-.main-menu .navbar-nav {
-	list-style: none;
-	padding: 0;
-	margin: -20px;
-    margin-right: -15px;
-	display:flex;
+/*.main-menu .navbar-nav {*/
+/*	list-style: none;*/
+/*	padding: 0;*/
+/*	margin: -20px;*/
+/*    margin-right: -15px;*/
+/*	display:flex;*/
+/*}*/
 
-
-}
 .main-menu .navbar-nav>li {
 	position: relative;
 	z-index: 2;
 	display: inline-block
 }
 .main-menu .navbar-nav>li .fa-angle-down {
-	display: inline-block;
+	font-size: 15px;
 	padding-left: 3px;
-	margin-top: -44px;
     color: white;
-	margin-left:83px;
+	margin: 3px 6px;
 }
 .main-menu .navbar-nav li>a {
 	font-size: 14px !important;
@@ -1497,21 +1495,16 @@ header .navbar-meta.meta-property .meta-content .meta-property {
 .main-menu .navbar-nav li>.sub-menu {
 	position: absolute;
 	z-index: 2;
-	right: 0;
+	top: 65px;
+	left: 0;
 	list-style: none;
 	padding: 0;
 	margin: 0;
 	background: #333333;
-	
 	min-width: 160px;
 	opacity: 0;
 	filter: alpha(opacity=0);
 	visibility: hidden;
-	
-
-	
-	
-	
 }
 .main-menu .navbar-nav li:hover .sub-menu {
 	opacity: 1;
