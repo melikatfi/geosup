@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <base href="<?= url ?>">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <link rel="shortcut icon" href="src/image/geosup1.jpg"/>
+
+    <!--    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>-->
+
+    <link rel="stylesheet" href="src/css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="src/menu&slidernew/css/bootstrap.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="src/menu&slidernew/css/font-awesome.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="src/menu&slidernew/css/ionicons.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="src/menu&slidernew/css/icon-moon.css" type="text/css" media="all">
+    <link rel="stylesheet" href="src/menu&slidernew/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="src/menu&slidernew/css/animate.css">
+    <link rel="stylesheet" href="src/menu&slidernew/css/owl.carousel.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="src/menu&slidernew/css/owl.theme.default.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="src/menu&slidernew/css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="src/menu&slidernew/css/custom.css" type="text/css" media="all">
+    <link rel="stylesheet" href="src/menu&slidernew/css/landmark-map.css" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
+    <script src="src/menu&slidernew/js/html5shiv.min.js"></script>
+    <script src="src/menu&slidernew/js/respond.min.js"></script>
+
+    <!--    <link href="src/boot/css/bootstrap-rtl.min.css" rel="stylesheet">-->
+
+    <!--    <link rel='shortcut icon' type='image/x-icon' href='src/newstyle/images/favicon.ico' />-->
+
+    <link href="src/newstyle/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="src/newstyle/css/plugins/css3-animate-it-plugin/animations.css" rel="stylesheet">
+
+    <link href="src/newstyle/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="src/newstyle/css/mouldifi-core.css" rel="stylesheet">
+
+    <link href="src/newstyle/css/mouldifi-forms.css" rel="stylesheet">
+
+    <link href="src/newstyle/css/bootstrap-rtl.min.css" rel="stylesheet">
+
+    <link href="src/newstyle/css/mouldifi-rtl-core.css" rel="stylesheet">
+
+    <link href="src/newstyle/css/plugins/datepicker/bootstrap-datepicker.css" rel="stylesheet">
+    <link href="src/newstyle/css/plugins/colorpicker/bootstrap-colorpicker.css" rel="stylesheet">
+    <link href="src/newstyle/css/plugins/nouislider/nouislider.css" rel="stylesheet">
+    <link href="src/newstyle/css/plugins/select2/select2.css" rel="stylesheet">
+    <link href="src/newstyle/css/mouldifi-forms.css" rel="stylesheet">
+
+    <script src="src/newstyle/js/html5shiv.min.js"></script>
+    <script src="src/newstyle/js/respond.min.js"></script>
+
+    <script src="src/ckeditor/ckeditor.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <title>m</title>
+    <style>
+        .main-section{
+            position: relative;
+            background: url("src/imagesg/sensors/passivesensors/passive-banner.jpg");
+            height:500px;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body dir="rtl">
+
+<header class="header header-desktop">
+    <div class="navbar-wrapper">
+        <div class="topbar">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-sm-6 hidden-xs float-left">
+                        <div class="topmeta topmeta-right pull-right">
+                            <a id="Login" href="#myModal" data-toggle="modal" class="popup-contact " title="contact">
+                                ورود
+                            </a>
+
+                            <a id="Register" class="popup-contact" href="http://geosup.ir/register" title="contact">
+                                ثبت نام
+                            </a>
+
+                            <button class="popup-contact btn-lang">
+                                فارسی
+
+                            </button>
+                            /
+                            <button class="btn-lang mr-1">
+                                انگلیسی
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="topmeta topmeta-right pull-left">
+                            <a class="popup-contact" href="" title="contact"
+                               style="font-family: 'Open Sans', sans-serif">
+                                <i class="fas fa-mobile-alt"></i>
+                                ۰۲۱۸۸۰۰۸۸۳۷
+                            </a>
+                            <a class="popup-contact1" href="mailto:info@geosup.ir" title="mail">
+                                <i class="fa fa-envelope "></i>
+                                info@geosup.ir
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu">
+        <div>
+            <div class="navbar-header pull-left" style="height: 10px;">
+                <button data-target=".nav-collapse" class="btn-navbar icon-menu" type="button">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-between">
+            <div>
+                <a style="width:80px;margin-top: 10px;margin-left:-7px;" href="./" class="navbar-brand" title="GEO-SUP">
+                    <img style="height:45px;margin-top: -8px;" src="src/image/fani-logo-removebg-preview.png" alt="logo">
+                </a>
+
+                <a style="margin-top: 5px;" href="./" class="navbar-brand" title="GEO-SUP">
+                    <h1 id="Title" class="baner1" style="font-family:'Open Sans', sans-serif;font-size: 28px;font-weight: bold;color: white;padding:8px;padding-left: 14px;
+    margin-left:-40px;
+    ">GEO-SUP</h1>
+                </a>
+            </div>
+
+            <nav class="pull-left main-menu mt-35">
+                <ul class="nav-collapse navbar-nav">
+                    <li>
+                        <div class="d-flex">
+                            <a id="Home"  href="https://geosup.ir/">خانه</a>
+                            <i class="fa fa-angle-down"></i>
+                        </div>
+                        <ul class="sub-menu">
+                            <li><a id="Aboutus" href="https://geosup.ir/aboutus">درباره ما</a></li>
+                            <li><a id="Mission" href="https://geosup.ir/missionvision">Mission & Vision</a></li>
+                            <li><a id="Team" href="https://geosup.ir/ourteam">تیم ما</a></li>
+                            <li><a id="Publication" href="https://geosup.irsrcation">Publication</a></li>
+                            <li><a id="Contact" href="https://geosup.ir/contactus">تماس با ما</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <div class="d-flex">
+                            <a href="https://geosup.ir/sensors">سنسور ها</a>
+                            <i class="fa fa-angle-down"></i>
+                        </div>
+
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="https://geosup.ir/activesensors">سنسور های فعال</a>
+                            </li>
+                            <li>
+                                <a href="https://geosup.ir/passivesensors">سنسورهاي غيرفعال</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <div class="d-flex">
+                            <a href="https://geosup.ir/platforms">
+                                سکو ها
+                            </a>
+                            <i class="fa fa-angle-down"></i>
+                        </div>
+
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="https://geosup.ir/UAV">Unmanned Aerial Vehicle (UAV)</a>
+                            </li>
+                            <li>
+                                <a href="https://geosup.ir/UGV">Unmanned Ground Vehicle (UGV)</a>
+                            </li>
+                            <li>
+                                <a href="https://geosup.ir/SUV"> Autonomous Underwater Vehicle (AUV)</a>
+                            </li>
+                            <li>
+                                <a href="https://geosup.ir/USV">Unmanned Surface Vehicle (USV) </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <div class="d-flex">
+                            <a href="https://geosup.ir/researches">
+                                تحقیقات
+                            </a>
+                            <i class="fa fa-angle-down"></i>
+                        </div>
+
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="https://geosup.ir/SensorOrientation">Sensor Design & Orientation</a>
+                            </li>
+                            <li>
+                                <a href="https://geosup.ir/PointCloudProcessing">Point Cloud Processing & 3D Modeling</a>
+                            </li>
+                            <li>
+                                <a href="https://geosup.ir/CognitiveAI">Cognitive AI</a>
+                            </li>
+                            <li>
+                                <a href="https://geosup.ir/Image_and_Video_Processing">Image and Video Processing</a>
+                            </li>
+                            <li>
+                                <a href="https://geosup.ir/datafusion">Data Fusion</a>
+                            </li>
+                            <li>
+                                <a href="https://geosup.ir/Thermogrammetry">Thermogrammetry</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <div class="d-flex">
+                            <a href="https://geosup.ir/industries">صنایع</a>
+                            <i class="fa fa-angle-down"></i>
+                        </div>
+                        <ul class="sub-menu">
+                            <li><a href="https://geosup.ir/aerialmapping">Aerial Mapping</a></li>
+                            <li><a href="https://geosup.ir/agriculture">Agriculture & Forestry</a></li>
+                            <li><a href="https://geosup.ir/minesmapping">Mines Mapping</a></li>
+                            <li><a href="https://geosup.ir/Power">Power&Utilities</a></li>
+                            <li><a href="https://geosup.ir/culturalheritage">Cultural Heritage</a></li>
+                            <li><a href="https://geosup.ir/RescuseMission">Rescue Mission</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <div class="d-flex">
+                            <a href="#">خدمات</a>
+                            <i class="fa fa-angle-down"></i>
+                        </div>
+                        <ul class="sub-menu">
+                            <li><a href="https://geosup.ir/service">Geo-SUP Service</a></li>
+                            <li><a href="https://geosup.ir/facilities">Facilities</a></li>
+                            <li><a href="https://geosup.ir/training">Training</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<div class="container-fluid main-section">
+    <div class="row">
+        <div class="offset-lg-2 col-lg-8 section-part text-center">
+            <div class="offset-lg-2 col-lg-8 section-part text-center">
+                <h1 class="text-light text-bold pr-10 mt-3 ml-2"> Passive Sensors</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12" >
+    <div class="panel-group">
+        <div class="panel panel-default"></div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 p-5 float-right text-center">
+            <h2 class="elementor-heading-title elementor-size-default text-dark justify-content-center text-center p-0">
+                توضیحات
+            </h2>
+
+            <p class="text-center justify-content-center">
+                سيستم هاي سنجش از راه دوري که انرژي موجود بطور طبيعي را اندازه گيري مي کنند، سنسورهاي غيرفعال ناميده مي
+                شود. سنسورهاي غيرفعال تنها زماني مي توانند براي تشخيص انرژي مورد استفاده قرار گيرند که انرژي بصورت طبيعي
+                موجود باشد. براي تمامِ انرژي منعکس شده (بازتابي)، اين امر فقط مي تواند در زماني رخ دهد که خورشيد زمين را
+                روشن مي کند. در شب هيچ انرژي بازتابي از خورشيد در دسترس نيست. انرژي که بطور طبيعي ساطع مي شود (همچون
+                مادون قرمز حرارتي) در روز يا شب قابل تشخيص است، بشرطي که مقدار انرژي به اندازه کافي بزرگ باشد که بتوان
+                آن را ثبت کرد. سنسورهاي غيرفعال شامل سنسورهاي بصري، مادون قرمز حرارتي (TIR)، چند طيفي و فراطيفي مي
+                باشند.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12 mb-3" >
+    <div class="panel-group">
+        <div class="panel panel-default"></div>
+    </div>
+</div>
+
+<div class="container bootstrap snippets bootdey">
+    <section id="content" class="current">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <h2>Passive Sensors</h2>
+                    <h2 style="font-size: 35px;line-height: 60px;margin-bottom: 20px;font-weight: 900;">The <span class="highlight">Most Important Feature</span></h2>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-offset-1 col-sm-12 col-md-12 col-lg-10">
+                    <div class="features-list">
+                        <div class="row">
+                            <div class=" col-md-3 ">
+                                <div class="feature-block bootdey" style="visibility: visible;">
+                                    <div class="ico fas fa-chart-line"></div>
+                                    <div class="text" style="direction:ltr;"> Surveyor need only record a naturally occurring field; therefore, he need supply only a sensor and a data recorder.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-3 ">
+                                <div class="feature-block bootdey" style="visibility: visible;">
+                                    <div class="ico fas fa-chart-line"></div>
+                                    <div class="text" style="direction:ltr;"> Passive experiments can be run over wider areas in a more cost-effective manner.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-md-3 ">
+                                <div class="feature-block bootdey" style="visibility: visible;">
+                                    <div class="ico fas fa-chart-line"></div>
+                                    <div class="text" style="direction:ltr;">Contractors can provide surveys on short notice with relatively easily quantifiable results.
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-md-3 ">
+                                <div class="feature-block bootdey" style="visibility: visible;">
+                                    <div class="ico fas fa-chart-line"></div>
+
+                                    <div class="text" style="direction:ltr;"> Interpretation of the observations can be accomplished with modest computational requirements quickly and efficiently. </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div style="margin-top:25px;" class="col-md-12" >
+    <div class="panel-group">
+        <div class="panel panel-default">
+        </div></div></div>
+<section id="tab-menus">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center mt-4 mb-5">PASSIVE SENSORS</h2>
+                <!-- Tabs navs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link " data-toggle="tab" href="#firstMenu"> Multispectral</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#secondmenu">Hyperspectral</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#thirdmenu">Thermal Infrared (TIR)</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" data-toggle="tab" href="#fourthmenu">Visible Sensor </a>
+                    </li>
+                </ul>
+                <!-- Tabs Content -->
+                <div class="tab-content">
+                    <div id="firstMenu" class="tab-pane ">
+                        <h3 class="mt-4">Multispectral</h3>
+                        <p>The Multispectral Sensor is one of the most commonly used scanning systems. Like the Hyperspectral Sensor it’s able to see visible light, infrared radiation and ultraviolet light. We offer a 5 Channel Multispectral Sensor and a High Resolution Multispectral Imager. They range in the number of bands and resolutions, topping out at sub one centimeter per pixel.
+
+                        </p>
+                        <img style="width:500px;height:300px;margin:20px;" src="./public/imagesg/sensors/passivesensors/multispectral1.JPG">
+
+                    </div>
+                    <div id="secondmenu" class="tab-pane">
+                        <h3 class="mt-4">Hyperspectral</h3>
+                        <p>The completely integrated visible and near infrared Hyperspectral Sensor is perfect for small UAV applications. Hyperspectral provides more detailed information content with a capability to see the unseen in comparison to a visual camera. The line scanning (push broom) type sensor is perfect for research applications to measure the spectrography of the ground.
+
+                        </p>
+                        <img style="width:400px;height:300px;margin:20px;" src="./public/imagesg/sensors/passivesensors/hyperspectral11.jpg">
+
+                    </div>
+                    <div id="thirdmenu" class="tab-pane">
+                        <h3 class="mt-4">Thermal Infrared (TIR)</h3>
+                        <p>Thermal Infrared Sensors have the ability to measure and read the surface temperature of land or objects beyond the scope of human vision. We offer two Thermal Infrared Sensor options, a High Resolution TIR-H and Radiometric High Resolution Thermal Sensor. Although the two sensors are very similar, a key difference is the High Resolution TIR-H sensor output is linear with temperature.
+
+                        </p>
+                        <img style="width:500px;height:300px;margin:20px;" src="./public/imagesg/sensors/passivesensors/thermal.jpg">
+
+                    </div>
+                    <div id="fourthmenu" class="tab-pane active">
+                        <h3 class="mt-4">Visible Sensors</h3>
+                        <p>Both the Visual Sensor and Enhanced Resolution Visual Sensor are high-resolution, low-distortion RGB cameras which produces color imagery. A major advantage of visual imagery captured by a UAV is the aerial perspective of a specific area. You’re able to get a birds-eye-view high-res picture without putting in extra effort for the vantage point.</p>
+
+                        <img style="width:500px;height:300px;margin:20px;" src="./public/imagesg/sensors/passivesensors/visible1.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="col-md-12" style="margin-top: 0px;">
+</div>
+
+<div class="container">
+    <div class="row text-center mb-3">
+        <div class="col-md-12">
+            <h2 style="font-size: 35px;padding-top:40px;padding-bottom:30px;line-height: 35px;color: #14213d;justify-content: center;text-align: center;font-weight: 700;font-family: 'Open Sans', sans-serif; ">Latest News and Events</h2>
+
+        </div>
+    </div>
+    <div class="row">
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">  <div class="col-md-3">
+                    <div class="card" style="background-color: #eeeeff;">
+                        <div class="card-img"><img src="./public/imagesg/sensors/passivesensors/SAMPLE1.JPG"></div>
+                        <div class="card-body">
+                            <h4  class="pt-1 pb-2">Fast Citrus Greening detection</h4>
+                            <p style="font-size:14px;">
+                                UAV‑based multispectral imagery for fast Citrus Greening detection<br><br><br>
+                            </p>
+
+                            <button type= "button" class="btn btn-outline-danger btn-block btn-sm"> <a style="color: white;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-md-3">
+                        <div class="card" style="background-color: #eeeeff;">
+                            <div class="card-img"><img src="./public/imagesg/researches/sensor/sensord.jpg"></div>
+                            <div class="card-body">
+                                <h4  class="pt-1 pb-2"> Band to Band Image Registration</h4>
+
+                                <p style="font-size:14px;padding-top:4px;">
+                                    Band to Band Image Registration for Multi-Spectral Cameras Based on Miss-Registration and Relief Displacement Error Reduction
+                                </p>
+
+                                <button type= "button" class="btn btn-outline-danger btn-block btn-sm"> <a style="color: white;" >Read More</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card" style="background-color: #eeeeff;">
+                            <div class="card-img"><img style="height:180px;" src="./public/imagesg/sensors/passivesensors/pansharpe.JPG"></div>
+                            <div class="card-body">
+                                <h4 class="pt-1 pb-2" style="font-family:'open Sans',sans-serif;">Pan-Sharpening Quality Assessment</h4>
+                                <p style="font-size:14px;font-family:'open Sans',sans-serif;">
+                                    An object-level strategy for pan-sharpening quality assessment of high-resolution satellite imagery<br><br>
+                                </p>
+
+                                <button type= "button" class="btn btn-outline-danger btn-block btn-sm"> <a style="color: white;" >Read More</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+</div>
+</div>
+
+
+<footer>
+    <div class="footer-wrap">
+        <div class="second_class">
+            <div class="container second_class_bdr">
+                <div class="row">
+                    <div class="col-md-2 col-sm-6 text-right">
+                        <h3>خدمات</h3>
+                        <ul class="footer-links">
+                            <li><a href="https://geosup.ir/facilities">Facilities</a>
+                            </li>
+                            <li><a href="https://geosup.ir/training">Training</a>
+                            </li>
+                            <li><a href="https://geosup.ir/service">Geo-SUP Service</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 text-right">
+                        <h3>صنایع</h3>
+                        <ul class="footer-category">
+                            <li><a href="https://geosup.ir/aerialmapping">Aerial Mapping</a>
+                            </li>
+                            <li><a href="https://geosup.ir/agriculture">Agriculture & Forestry</a>
+                            </li>
+                            <li><a href="https://geosup.ir/minesmapping">Mines Mapping</a>
+                            </li>
+                            <li><a href="https://geosup.ir/Power">Power & Utilites</a>
+                            </li>
+                            <li><a href="https://geosup.ir/culturalheritage">Cultural Heritage</a>
+                            </li>
+                            <li><a href="https://geosup.ir/RescuseMission">Rescue Mission</a>
+                            </li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 text-right">
+                        <h3>RESEARCH</h3>
+                        <ul class="footer-category">
+                            <li><a href="https://geosup.ir/SensorOrientation">Sensor Design And Orientation</a>
+                            </li>
+                            <li><a href="https://geosup.ir/PointCloudProcessing">Point Cloud Processing & 3D
+                                Modeling</a>
+                            </li>
+                            <li><a href="https://geosup.ir/CognitiveAI">Cognitive Artificial Intelligence</a>
+                            </li>
+                            <li><a href="https://geosup.ir/Image_and_Video_Processing">Image and Video Processing</a>
+                            </li>
+                            </li>
+                            <li><a href="https://geosup.ir/datafusion">Data Fusion</a>
+                            </li>
+                            <li><a href="https://geosup.ir/Thermogrammetry">Thermogrammetry</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 text-right">
+                        <h3>تماس با ما</h3>
+                        <div class="footer-logo">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d764.322770485481!2d51.388240012739224!3d35.724081494467065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e00d5216271b3%3A0xc7d0728ec76cef6!2sSchool%20of%20Electrical%20and%20Computer%20Engineering%2C%20Tehran%2C%20Tehran%20Province%2C%20Iran!5e0!3m2!1sen!2suk!4v1641014969614!5m2!1sen!2suk"
+                                    width="100%" height="150" style="border:0;" allowfullscreen=""
+                                    loading="lazy"></iframe>
+                            <p style="direction:ltr;font-size:13px;font-family: 'Open Sans', sans-serif">
+                                Engineering collage, University of Tehran, North Kargar st, Tehran, Iran<br>
+                                tel: +98(021) 88008837
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+</footer>
+
+<!-- Modal HTML -->
+<div id="myModal" class="modal fade">
+    <div class="modal-dialog modal-login">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="avatar">
+                    <img src="src/image/kisspng-computer-icons-user-profile-account-login-chang-5add861d63e247.1172484315244672294091-1024x1024.png"
+                         alt="Avatar">
+                </div>
+                <h4 class="modal-title">Member Login</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+
+            <div class="modal-body">
+                <form action="/examples/actions/confirmation.php" method="post">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="username" placeholder="Username"
+                               required="required">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" name="password" placeholder="Password"
+                               required="required">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-lg btn-block login-btn">Login</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                <a href="#">Forgot Password?</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="go-to-top" class="go-to-top">
+    <i class="fa fa-angle-up pb-4"></i>
+</div>
+</body>
+</html>
+
+<script src="src/menu&slidernew/js/jquery.min.js"></script>
+<script src="src/menu&slidernew/js/jquery-migrate.min.js"></script>
+<script src="src/menu&slidernew/js/bootstrap.min.js"></script>
+<script src="src/menu&slidernew/js/modernizr-2.7.1.min.js"></script>
+<script src="src/menu&slidernew/js/owl.carousel.min.js"></script>
+<script src="src/menu&slidernew/js/off-cavnass.js"></script>
+<script src="src/menu&slidernew/js/jquery.magnific-popup.min.js"></script>
+<script src="src/menu&slidernew/js/script.js"></script>
+<script src="src/menu&slidernew/js/core.min.js"></script>
+<script src="src/menu&slidernew/js/widget.min.js"></script>
+<script src="src/menu&slidernew/js/mouse.min.js"></script>
+<script src="src/menu&slidernew/js/slider.min.js"></script>
+<script src="src/menu&slidernew/js/jquery.ui.touch-punch.js"></script>
+<script src="src/menu&slidernew/js/price-slider.js"></script>
+<script>
+    $(document).ready(function () {
+
+        $(window).resize(function () {
+            if ($(window).width() >= 980) {
+
+                $(".navbar .dropdown-toggle").hover(function () {
+                    $(this).parent().toggleClass("show");
+                    $(this).parent().find(".dropdown-menu").toggleClass("show");
+                });
+
+                $(".navbar .dropdown-menu").mouseleave(function () {
+                    $(this).removeClass("show");
+                });
+
+            }
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        $('#myCarousel').carousel({
+            interval: 2000
+        });
+
+        var clickEvent = false;
+        $('#myCarousel').on('click', '.nav a', function () {
+            clickEvent = true;
+            $('.nav li').removeClass('active');
+            $(this).parent().addClass('active');
+        }).on('slid.bs.carousel', function (e) {
+            if (!clickEvent) {
+                var count = $('.nav').children().length - 1;
+                var current = $('.nav li.active');
+                current.removeClass('active').next().addClass('active');
+                var id = parseInt(current.data('slide-to'));
+                if (count == id) {
+                    $('.nav li').first().addClass('active');
+                }
+            }
+            clickEvent = false;
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        $('.carousel .carousel-caption').css('zoom', $('.carousel').width() / 1250);
+    });
+
+    $(window).resize(function () {
+        $('.carousel .carousel-caption').css('zoom', $('.carousel').width() / 1250);
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        var itemsMainDiv = ('.MultiCarousel');
+        var itemsDiv = ('.MultiCarousel-inner');
+        var itemWidth = "";
+
+        $('.leftLst, .rightLst').click(function () {
+            var condition = $(this).hasClass("leftLst");
+            if (condition)
+                click(0, this);
+            else
+                click(1, this)
+        });
+
+        ResCarouselSize();
+
+
+        $(window).resize(function () {
+            ResCarouselSize();
+        });
+
+        //this function define the size of the items
+        function ResCarouselSize() {
+            var incno = 0;
+            var dataItems = ("data-items");
+            var itemClass = ('.item');
+            var id = 0;
+            var btnParentSb = '';
+            var itemsSplit = '';
+            var sampwidth = $(itemsMainDiv).width();
+            var bodyWidth = $('body').width();
+            $(itemsDiv).each(function () {
+                id = id + 1;
+                var itemNumbers = $(this).find(itemClass).length;
+                btnParentSb = $(this).parent().attr(dataItems);
+                itemsSplit = btnParentSb.split(',');
+                $(this).parent().attr("id", "MultiCarousel" + id);
+
+
+                if (bodyWidth >= 1200) {
+                    incno = itemsSplit[3];
+                    itemWidth = sampwidth / incno;
+                } else if (bodyWidth >= 992) {
+                    incno = itemsSplit[2];
+                    itemWidth = sampwidth / incno;
+                } else if (bodyWidth >= 768) {
+                    incno = itemsSplit[1];
+                    itemWidth = sampwidth / incno;
+                } else {
+                    incno = itemsSplit[0];
+                    itemWidth = sampwidth / incno;
+                }
+                $(this).css({'transform': 'translateX(0px)', 'width': itemWidth * itemNumbers});
+                $(this).find(itemClass).each(function () {
+                    $(this).outerWidth(itemWidth);
+                });
+
+                $(".leftLst").addClass("over");
+                $(".rightLst").removeClass("over");
+
+            });
+        }
+
+
+        //this function used to move the items
+        function ResCarousel(e, el, s) {
+            var leftBtn = ('.leftLst');
+            var rightBtn = ('.rightLst');
+            var translateXval = '';
+            var divStyle = $(el + ' ' + itemsDiv).css('transform');
+            var values = divStyle.match(/-?[\d\.]+/g);
+            var xds = Math.abs(values[4]);
+            if (e == 0) {
+                translateXval = parseInt(xds) - parseInt(itemWidth * s);
+                $(el + ' ' + rightBtn).removeClass("over");
+
+                if (translateXval <= itemWidth / 2) {
+                    translateXval = 0;
+                    $(el + ' ' + leftBtn).addClass("over");
+                }
+            } else if (e == 1) {
+                var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
+                translateXval = parseInt(xds) + parseInt(itemWidth * s);
+                $(el + ' ' + leftBtn).removeClass("over");
+
+                if (translateXval >= itemsCondition - itemWidth / 2) {
+                    translateXval = itemsCondition;
+                    $(el + ' ' + rightBtn).addClass("over");
+                }
+            }
+            $(el + ' ' + itemsDiv).css('transform', 'translateX(' + -translateXval + 'px)');
+        }
+
+        //It is used to get some elements from btn
+        function click(ell, ee) {
+            var Parent = "#" + $(ee).parent().attr("id");
+            var slide = $(Parent).attr("data-slide");
+            ResCarousel(ell, Parent, slide);
+        }
+
+    });
+</script>
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 4,
+        // slidesPerGroup: 4,
+        centeredSlides: true,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        loopedSlides: 10,
+        roundLengths: true,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
+
