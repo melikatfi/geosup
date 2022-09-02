@@ -8990,18 +8990,18 @@ header .navbar-meta.meta-property .meta-content .meta-property {
 		border-radius: 4px;
     }
 
-	#Slider1 {
-		color: #fff;
-		font-size: 58px;
-		text-shadow: 2px 2px 20px #000;
-	}
+	/*#Slider1 {*/
+	/*	color: #fff;*/
+	/*	!*font-size: 58px;*!*/
+	/*	text-shadow: 2px 2px 20px #000;*/
+	/*}*/
 
-	#Slider2 {
-		font-size: 51px;
-		color: white;
-		text-shadow: 2px 2px 20px #000;
-		font-weight: bold;
-	}
+	/*#Slider2 {*/
+	/*	font-size: 51px;*/
+	/*	color: white;*/
+	/*	text-shadow: 2px 2px 20px #000;*/
+	/*	font-weight: bold;*/
+	/*}*/
 
     .container-fluid .icon-menu {
         left: 40px;
